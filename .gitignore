@@ -1,0 +1,16 @@
+# Ignore all private key files in any subdirectory
+*/private_keys
+*.pem
+*.key
+id_rsa
+id_ecdsa
+id_ed25519
+
+# Vagrant and VirtualBox artifacts
+.vagrant/
+*.box
+
+# Editor/OS files
+*.swp
+.DS_Store
+Thumbs.db
